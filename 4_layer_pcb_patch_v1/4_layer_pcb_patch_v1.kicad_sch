@@ -265,7 +265,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 133.35) (xy 129.54 133.35)
+			(xy 110.49 133.35) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
@@ -283,10 +283,8 @@
 		)
 		(uuid "5087099c-a585-45b0-8a08-db6bbeb20e7c")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 120.65 133.35 0)
+	(label "patch_element"
+		(at 110.49 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -294,17 +292,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "682fd9c0-ab9d-4156-87a2-7895325c338c")
-		(property "Netclass" ""
-			(at 121.3485 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
+		(uuid "c75e8cdf-5ff8-4451-b6ec-84c9c6830409")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
